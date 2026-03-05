@@ -466,6 +466,111 @@
   display: block;
 }
 
+/* ─── Review Category Tabs ─────────────────────────── */
+
+.review-category-tabs {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  min-height: 36px !important;
+}
+
+.review-category-tabs .MuiTabs-indicator {
+  background: #0ff !important;
+  height: 2px;
+}
+
+.review-tab {
+  color: #888 !important;
+  text-transform: none !important;
+  font-size: 0.78rem !important;
+  min-height: 36px !important;
+  padding: 4px 12px !important;
+}
+
+.review-tab.Mui-selected.review-tab--all {
+  color: #0ff !important;
+}
+
+.review-tab.Mui-selected.review-tab--positive {
+  color: #39ff14 !important;
+}
+
+.review-tab.Mui-selected.review-tab--mixed {
+  color: #ffab00 !important;
+}
+
+.review-tab.Mui-selected.review-tab--negative {
+  color: #ff4444 !important;
+}
+
+/* ─── Category-colored rating chips ────────────────── */
+
+.chip-review-rating--positive {
+  border-color: #39ff14 !important;
+  color: #39ff14 !important;
+}
+
+.chip-review-rating--mixed {
+  border-color: #ffab00 !important;
+  color: #ffab00 !important;
+}
+
+.chip-review-rating--negative {
+  border-color: #ff4444 !important;
+  color: #ff4444 !important;
+}
+
+/* ─── Category-colored accordion borders ───────────── */
+
+.review-accordion--positive {
+  border-left: 3px solid #39ff14 !important;
+}
+
+.review-accordion--mixed {
+  border-left: 3px solid #ffab00 !important;
+}
+
+.review-accordion--negative {
+  border-left: 3px solid #ff4444 !important;
+}
+
+/* ─── AI categorization badge ──────────────────────── */
+
+.ai-categorizing-badge {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 2px 10px;
+  border-radius: 12px;
+  background: rgba(0, 255, 255, 0.06);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+}
+
+/* ─── Category label chip on each review ───────────── */
+
+.chip-category-label {
+  background: transparent !important;
+  font-size: 0.65rem !important;
+  height: 20px !important;
+  margin-left: auto !important;
+  text-transform: capitalize !important;
+}
+
+.chip-category-label--positive {
+  border: 1px solid #39ff14 !important;
+  color: #39ff14 !important;
+}
+
+.chip-category-label--mixed {
+  border: 1px solid #ffab00 !important;
+  color: #ffab00 !important;
+}
+
+.chip-category-label--negative {
+  border: 1px solid #ff4444 !important;
+  color: #ff4444 !important;
+}
+
 /* ─── Insights Section ─────────────────────────────── */
 
 .insights-card {
