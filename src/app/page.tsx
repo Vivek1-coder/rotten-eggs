@@ -147,8 +147,8 @@ export default function MoviePage() {
     <>
       <NeonGridBackground />
     <Box className="page-container ">
-      <Typography variant="h3" className="page-header mb-3">
-       Movie Insider
+      <Typography variant="h3" className="page-header pb-3">
+       🐣 Rotten Eggs
       </Typography>
 
       <SearchBar
